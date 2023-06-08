@@ -1,8 +1,4 @@
-import { useState } from 'react';
-
-export const Categories = () => {
-	const [indexCategory, setIndexCategory] = useState(0);
-
+export const Categories = ({ indexCategory, setIndexCategory }) => {
 	const categories = [
 		'Все',
 		'Мясные',
